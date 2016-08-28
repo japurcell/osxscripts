@@ -10,8 +10,8 @@ if [ "$1" = false ]; then
   command=load
   disabled=false
 
-  # enable spotlight activity on all volumes and rebuild indexes
-  mdArgs="-a -i on -E"
+  # enable spotlight activity on all volumes
+  mdArgs="-a -i on"
 fi
 
 baseDirectory=/System/Library/
